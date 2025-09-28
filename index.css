@@ -1,0 +1,152 @@
+/* GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tahoma", sans-serif;
+}
+
+section {
+  padding: 30px 30px;
+  text-align: center;
+}
+
+.servicos,
+.contato {
+  background-color: #1c81c0;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.titulo-branco {
+  color: #ffff;
+}
+
+.titulo-azul {
+  color: #1c81c0;
+}
+
+p {
+  width: 980px;
+  text-align: justify;
+  line-height: 28px;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+.servicos-paragrafo,
+.corretores-paragrafo {
+  color: #ffff;
+  line-height: 42px;
+  font-size: 22px;
+  width: 700px;
+}
+
+.destaque-azul {
+  font-weight: bold;
+  color: #1c81c0;
+}
+
+.destaque-amarelo {
+  font-weight: bold;
+  color: #fff81b;
+}
+
+.sobre-image,
+.corretores-image {
+  width: 450px;
+}
+
+/* SEÇÃO MENU*/
+.menu {
+  background-color: #afddfb;
+}
+
+.menu img {
+  width: 150px;
+}
+
+.menu nav {
+  margin: 15px 25px;
+  font-size: 18px;
+}
+
+.menu nav a {
+  text-decoration: none;
+  color: #1d1d1d;
+  border-bottom: 2px solid #1d1d1d;
+  margin: 0 10px;
+}
+
+/* SEÇÃO BANNER*/
+.banner {
+  margin-top: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* SEÇÃO SOBRE */
+.sobre h1 {
+  margin-bottom: 5px;
+}
+
+.sobre h2 {
+  color: #1c81c0;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+/* SEÇÃO SERVIÇOS */
+
+.servicos-lista {
+  margin: 40px auto;
+  width: 135px;
+}
+
+.servicos-lista li {
+  color: #ffff;
+  line-height: 42px;
+  text-align: left;
+  font-size: 22px;
+}
+
+/* SEÇÃO CONTATO*/
+iframe {
+  width: 800px;
+  height: 350px;
+}
+
+.paragrafo-contato {
+  background-color: #1d1d1d;
+  color: #ffff;
+  padding: 15px;
+  margin: 30px auto;
+  font-size: 16px;
+  text-align: center;
+}
+
+.lista-contatos {
+  margin: 40px auto;
+  width: 210px;
+  list-style-type: none;
+}
+
+.lista-contatos li {
+  margin-top: 15px;
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.lista-contatos a {
+  color: #1d80c1;
+  text-decoration: none;
+}
+
+.lista-contatos a:hover {
+  color: #1d1d1d;
+}
